@@ -1,0 +1,4 @@
+arch-repo: https://geo.mirror.pkgbuild.com
+impl: https://github.com/Slyklaw/blendos-tracks/raw/main
+repo: https://pkg-repo.blendos.co
+track: cinnamon-sin

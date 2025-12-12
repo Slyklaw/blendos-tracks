@@ -1,0 +1,31 @@
+impl: 'https://github.com/blend-os/tracks/raw/main'
+
+track: 'blendos-base'
+
+packages:
+  - 'cinnamon'
+  # - 'firefox'
+  - 'papirus-icon-theme'
+  - 'xed'
+  - 'evince'
+  # - 'totem'
+  # - 'blueberry'
+  - 'gnome-terminal'
+  - 'lightdm'
+  - 'lightdm-gtk-greeter'
+
+# Additional packages
+  - 'gnome-calculator'
+  - 'mission-center'
+  # - 'gamescope'
+  # - 'umu-launcher'
+  - 'proton-vpn-gtk-app'
+  - 'prismlauncher'
+  - 'virtualbox'
+
+aur-packages:
+  - 'brave-bin'
+  - 'curseforge'
+
+services:
+  - 'lightdm'
