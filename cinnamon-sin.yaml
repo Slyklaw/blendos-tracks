@@ -20,10 +20,11 @@ packages:
   - 'steam'
   - 'proton-vpn-gtk-app'
   - 'virtualbox'
-  # - 'gnome-software'
+  - 'gnome-software'
   - 'gnome-disk-utility'
   - 'gnome-screenshot'
   - 'code'
+  - 'baobab'
 
 aur-packages:
   - 'brave-bin'
