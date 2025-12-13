@@ -31,7 +31,7 @@ aur-packages:
   - 'lunar-client'
   - 'claude-code'
   - 'kiro-ide'
-  - 'heroic-game-launcher-bin'
+  - 'heroic-games-launcher-bin'
 
 services:
   - 'lightdm'
