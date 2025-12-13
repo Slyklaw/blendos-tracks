@@ -27,7 +27,7 @@ packages:
 
 aur-packages:
   - 'brave-bin'
-  - 'curseforge'
+  - 'curseforge-appimage'
   - 'lunar-client'
   - 'claude-code'
   - 'kiro-ide'
