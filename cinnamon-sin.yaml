@@ -17,15 +17,21 @@ packages:
 # Additional packages
   - 'gnome-calculator'
   - 'mission-center'
-  # - 'gamescope'
-  # - 'umu-launcher'
+  - 'steam'
   - 'proton-vpn-gtk-app'
-  - 'prismlauncher'
   - 'virtualbox'
+  # - 'gnome-software'
+  - 'gnome-disk-utility'
+  - 'gnome-screenshot'
+  - 'code'
 
 aur-packages:
   - 'brave-bin'
   - 'curseforge'
+  - 'lunar-client'
+  - 'claude-code'
+  - 'kiro-ide'
+  - 'heroic-game-launcher-bin'
 
 services:
   - 'lightdm'
