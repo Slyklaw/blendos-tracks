@@ -27,12 +27,12 @@ packages:
   - 'baobab'
 
 aur-packages:
-  - 'brave-bin'
-  - 'curseforge-appimage'
-  - 'lunar-client'
-  - 'claude-code'
-  - 'kiro-ide'
-  - 'heroic-games-launcher-bin'
+  # - 'brave-bin'
+  # - 'curseforge-appimage'
+  # - 'lunar-client'
+  # - 'claude-code'
+  # - 'kiro-ide'
+  # - 'heroic-games-launcher-bin'
 
 services:
   - 'lightdm'
