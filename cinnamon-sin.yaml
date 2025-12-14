@@ -15,25 +15,17 @@ packages:
   - 'lightdm-gtk-greeter'
 
 # Additional packages
-  # - 'gnome-calculator'
-  # - 'mission-center'
-  # - 'steam'
-  # - 'proton-vpn-gtk-app'
-  # - 'virtualbox'
-  # - 'gnome-software'
-  # - 'gnome-disk-utility'
-  # - 'gnome-screenshot'
-  # - 'code'
-  # - 'baobab'
-  # - 'flatpak'
+  - 'gnome-calculator'
+  - 'mission-center'
+  # - 'gamescope'
+  # - 'umu-launcher'
+  - 'proton-vpn-gtk-app'
+  - 'prismlauncher'
+  - 'virtualbox'
 
 aur-packages:
   - 'brave-bin'
-  # - 'curseforge-appimage'
-  # - 'lunar-client'
-  # - 'claude-code'
-  # - 'kiro-ide'
-  # - 'heroic-games-launcher-bin'
+  - 'curseforge'
 
 services:
   - 'lightdm'
