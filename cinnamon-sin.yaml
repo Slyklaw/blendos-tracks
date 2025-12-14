@@ -25,6 +25,7 @@ packages:
   - 'gnome-screenshot'
   - 'code'
   - 'baobab'
+  - 'flatpak'
 
 aur-packages:
   # - 'brave-bin'
