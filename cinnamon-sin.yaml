@@ -4,7 +4,7 @@ track: 'blendos-base'
 
 packages:
   - 'cinnamon'
-  # - 'firefox'
+  - 'firefox'
   - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
@@ -20,8 +20,8 @@ services:
 aur-packages:
   - 'brave-bin'
   # - 'curseforge'
-  - 'lunar-client'
-  - 'claude-code'
-  - 'kiro-ide'
-  - 'heroic-games-launcher-bin'
-  - 'visual-studio-code-bin'
+  # - 'lunar-client'
+  # - 'claude-code'
+  # - 'kiro-ide'
+  # - 'heroic-games-launcher-bin'
+  # - 'visual-studio-code-bin'
