@@ -28,7 +28,7 @@ packages:
   - 'flatpak'
 
 aur-packages:
-  # - 'brave-bin'
+  - 'brave-bin'
   # - 'curseforge-appimage'
   # - 'lunar-client'
   # - 'claude-code'
