@@ -25,7 +25,6 @@ packages:
   - 'gnome-screenshot'
   - 'code'
   - 'baobab'
-  - 'nodejs'
 
 aur-packages:
   - 'brave-bin'
@@ -34,8 +33,6 @@ aur-packages:
   - 'claude-code'
   - 'kiro-ide'
   - 'heroic-games-launcher-bin'
-  # - 'lmstudio'
-  # - 'bun-bin'
 
 services:
   - 'lightdm'
