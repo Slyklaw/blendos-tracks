@@ -28,9 +28,9 @@ packages:
   - 'flatpak'
 
 aur-packages:
-  # - 'brave-bin'
-  # - 'curseforge-appimage'
-  # - 'lunar-client'
+  - 'brave-bin'
+  - 'curseforge-appimage'
+  - 'lunar-client'
   # - 'claude-code'
   # - 'kiro-ide'
   # - 'heroic-games-launcher-bin'
