@@ -13,6 +13,7 @@ packages:
   - 'gnome-terminal'
   - 'lightdm'
   - 'lightdm-gtk-greeter'
+  - 'pacman'
 
 services:
   - 'lightdm'
