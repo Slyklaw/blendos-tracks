@@ -30,7 +30,7 @@ packages:
 aur-packages:
   - 'brave-bin'
   # - 'curseforge-appimage'
-  - 'lunar-client'
+  # - 'lunar-client'
   # - 'claude-code'
   # - 'kiro-ide'
   # - 'heroic-games-launcher-bin'
