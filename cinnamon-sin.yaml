@@ -15,17 +15,17 @@ packages:
   - 'lightdm-gtk-greeter'
 
 # Additional packages
-  - 'gnome-calculator'
-  - 'mission-center'
-  - 'steam'
-  - 'proton-vpn-gtk-app'
-  - 'virtualbox'
-  - 'gnome-software'
-  - 'gnome-disk-utility'
-  - 'gnome-screenshot'
-  - 'code'
-  - 'baobab'
-  - 'flatpak'
+  # - 'gnome-calculator'
+  # - 'mission-center'
+  # - 'steam'
+  # - 'proton-vpn-gtk-app'
+  # - 'virtualbox'
+  # - 'gnome-software'
+  # - 'gnome-disk-utility'
+  # - 'gnome-screenshot'
+  # - 'code'
+  # - 'baobab'
+  # - 'flatpak'
 
 aur-packages:
   - 'brave-bin'
