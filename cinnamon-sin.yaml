@@ -34,8 +34,8 @@ aur-packages:
   - 'claude-code'
   - 'kiro-ide'
   - 'heroic-games-launcher-bin'
-  - 'lmstudio'
-  - 'bun-bin'
+  # - 'lmstudio'
+  # - 'bun-bin'
 
 services:
   - 'lightdm'
