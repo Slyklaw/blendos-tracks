@@ -4,7 +4,7 @@ track: 'blendos-base'
 
 packages:
   - 'cinnamon'
-  - 'firefox'
+  # - 'firefox'
   - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
@@ -16,3 +16,12 @@ packages:
 
 services:
   - 'lightdm'
+
+aur-packages:
+  - 'brave-bin'
+  # - 'curseforge'
+  - 'lunar-client'
+  - 'claude-code'
+  - 'kiro-ide'
+  - 'heroic-games-launcher-bin'
+  - 'visual-studio-code-bin'
