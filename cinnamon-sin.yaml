@@ -17,7 +17,16 @@ packages:
 #additional-packages
   - 'pacman'
   - 'flatpak'
+  - 'gnome-calculator'
+  - 'mission-center'
+  - 'steam'
+  - 'proton-vpn-gtk-app'
+  - 'virtualbox'
+  - 'gnome-software'
+  - 'gnome-disk-utility'
+  - 'gnome-screenshot'
   - 'code'
+  - 'baobab'
 
 
 services:
