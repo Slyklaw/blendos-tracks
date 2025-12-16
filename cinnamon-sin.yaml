@@ -32,17 +32,17 @@ packages:
 services:
   - 'lightdm'
 
-aur-packages:
-  - 'brave-bin'
-  - 'curseforge'
-  - 'lunar-client'
-  - 'claude-code'
-  - 'kiro-ide'
-  - 'heroic-games-launcher-bin'
-  - 'antigravity'
-  - 'visual-studio-code-bin'
-  - 'opencode-bin'
-  - 'bottles'
+# aur-packages:
+#   - 'brave-bin'
+#   - 'curseforge'
+#   - 'lunar-client'
+#   - 'claude-code'
+#   - 'kiro-ide'
+#   - 'heroic-games-launcher-bin'
+#   - 'antigravity'
+#   - 'visual-studio-code-bin'
+#   - 'opencode-bin'
+#   - 'bottles'
 
 
 # flatpak-packages:
