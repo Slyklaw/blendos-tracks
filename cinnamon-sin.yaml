@@ -27,7 +27,7 @@ packages:
   - 'gnome-screenshot'
   - 'code'
   - 'baobab'
-
+  - 'vivaldi'
 
 services:
   - 'lightdm'
