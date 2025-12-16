@@ -30,9 +30,9 @@ packages:
   - 'code'
   - 'baobab'
   - 'gimp'
-  - 'wine-gecko'
-  - 'wine-mono'
-  - 'openh264'
+  # - 'wine-gecko'
+  # - 'wine-mono'
+  # - 'openh264'
   # - 'vivaldi'
 
 services:
@@ -45,12 +45,12 @@ commands:
   - 'flatpak install -y com.discordapp.Discord'
   - 'flatpak install -y com.heroicgameslauncher.hgl'
   # - 'flatpak install -y com.visualstudio.code'
-  - 'flatpak install -y com.usebottles.bottles'
+  - 'flatpak install -y com.usebottles.bottles'       #!!!
   # - 'flatpak install -y org.prismlauncher.PrismLauncher'
   # - 'flatpak install -y com.atlauncher.ATLauncher'
-  - 'flatpak install -y dev.ftb.ftb-app'
-  - 'flatpak install -y com.vysp3r.ProtonPlus'
-  - 'flatpak install -y com.lunarclient.LunarClient'
+  - 'flatpak install -y dev.ftb.ftb-app'              #!!!
+  - 'flatpak install -y com.vysp3r.ProtonPlus'        #!!!
+  - 'flatpak install -y com.lunarclient.LunarClient'  #!!!
 
 
 # aur-packages:
