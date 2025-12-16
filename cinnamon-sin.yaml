@@ -34,6 +34,7 @@ packages:
   # - 'wine-mono'
   # - 'openh264'
   # - 'vivaldi'
+  - 'paru'
 
 services:
   - 'lightdm'
