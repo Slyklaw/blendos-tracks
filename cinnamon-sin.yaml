@@ -4,7 +4,7 @@ track: 'blendos-base'
 
 packages:
   - 'cinnamon'
-  # - 'firefox'
+  - 'firefox'
   - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
@@ -15,8 +15,6 @@ packages:
   - 'lightdm-gtk-greeter'
 
 #additional-packages
-  - 'pacman'
-  - 'flatpak'
   - 'xdg-desktop-portal-gtk'  # dupe?
   - 'gnome-calculator'
   - 'mission-center'
