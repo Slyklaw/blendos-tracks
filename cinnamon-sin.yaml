@@ -13,17 +13,21 @@ packages:
   - 'gnome-terminal'
   - 'lightdm'
   - 'lightdm-gtk-greeter'
+
+#additional-packages
   - 'pacman'
   - 'flatpak'
+  - 'code'
+
 
 services:
   - 'lightdm'
 
-aur-packages:
-  - 'brave-bin'
-  - 'curseforge'
-  - 'lunar-client'
-  - 'claude-code'
-  - 'kiro-ide'
-  - 'heroic-games-launcher-bin'
-  - 'visual-studio-code-bin'
+# aur-packages:
+#   - 'brave-bin'
+#   - 'curseforge'
+#   - 'lunar-client'
+#   - 'claude-code'
+#   - 'kiro-ide'
+#   - 'heroic-games-launcher-bin'
+#   - 'visual-studio-code-bin'
