@@ -17,9 +17,11 @@ packages:
 #additional-packages
   - 'pacman'
   - 'flatpak'
+  - 'xdg-desktop-portal-gtk'  # dupe?
   - 'gnome-calculator'
   - 'mission-center'
   - 'steam'
+  - 'umu-launcher'
   - 'proton-vpn-gtk-app'
   - 'virtualbox'
   - 'gnome-software'
@@ -27,10 +29,26 @@ packages:
   - 'gnome-screenshot'
   - 'code'
   - 'baobab'
-  - 'vivaldi'
+  - 'gimp'
+  # - 'vivaldi'
 
 services:
   - 'lightdm'
+
+# flatpak-packages:
+commands:
+  - 'flatpak install com.brave.Browser'
+  - 'flatpak install it.mijorus.gearlever'
+  - 'flatpak install com.discordapp.Discord'
+  - 'flatpak install com.heroicgameslauncher.hgl'
+  # - 'flatpak install com.visualstudio.code'
+  - 'flatpak install com.usebottles.bottles'
+  # - 'flatpak install org.prismlauncher.PrismLauncher'
+  # - 'flatpak install com.atlauncher.ATLauncher'
+  - 'flatpak install dev.ftb.ftb-app'
+  - 'flatpak install com.vysp3r.ProtonPlus'
+  - 'flatpak install com.lunarclient.LunarClient'
+
 
 # aur-packages:
 #   - 'brave-bin'
