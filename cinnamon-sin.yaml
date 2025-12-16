@@ -27,24 +27,32 @@ packages:
   - 'gnome-software'
   - 'gnome-disk-utility'
   - 'gnome-screenshot'
-  - 'code'
+  # - 'code'
   - 'baobab'
   - 'gimp'
-  # - 'wine-gecko'
-  # - 'wine-mono'
-  # - 'openh264'
-  # - 'vivaldi'
-  - 'paru'
 
 services:
   - 'lightdm'
 
+aur-packages:
+  - 'brave-bin'
+  - 'curseforge'
+  - 'lunar-client'
+  - 'claude-code'
+  - 'kiro-ide'
+  - 'heroic-games-launcher-bin'
+  - 'antigravity'
+  - 'visual-studio-code-bin'
+  - 'opencode-bin'
+  - 'bottles'
+
+
 # flatpak-packages:
 commands:
-  - 'flatpak install -y com.brave.Browser'
-  - 'flatpak install -y it.mijorus.gearlever'
-  - 'flatpak install -y com.discordapp.Discord'
-  - 'flatpak install -y com.heroicgameslauncher.hgl'
+  # - 'flatpak install -y com.brave.Browser'
+  # - 'flatpak install -y it.mijorus.gearlever'
+  # - 'flatpak install -y com.discordapp.Discord'
+  # - 'flatpak install -y com.heroicgameslauncher.hgl'
 
 # post-install commands:
   # - 'flatpak install -y com.visualstudio.code'
@@ -52,14 +60,6 @@ commands:
   # - 'flatpak install -y dev.ftb.ftb-app'              #!!!
   # - 'flatpak install -y com.vysp3r.ProtonPlus'        #!!!
   # - 'flatpak install -y com.lunarclient.LunarClient'  #!!!
-  - 'paru -S opencode-bin'
+  # - 'paru -S opencode-bin'
 
-
-# aur-packages:
-#   - 'brave-bin'
-#   - 'curseforge'
-#   - 'lunar-client'
-#   - 'claude-code'
-#   - 'kiro-ide'
-#   - 'heroic-games-launcher-bin'
-#   - 'visual-studio-code-bin'
+  - 'wget https://git.blendos.co/blendOS/system-tools/akshara/-/raw/main/akshara && sudo umount -l /usr && sudo mv ./akshara /usr/bin/akshara && sudo chmod +x /usr/bin/akshara'
