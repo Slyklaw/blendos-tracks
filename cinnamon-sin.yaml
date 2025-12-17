@@ -8,56 +8,14 @@ packages:
   - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
-  # - 'totem'
-  # - 'blueberry'
+  - 'totem'
+  - 'blueberry'
   - 'gnome-terminal'
   - 'lightdm'
   - 'lightdm-gtk-greeter'
 
-#additional-packages
-  - 'xdg-desktop-portal-gtk'  # dupe?
-  - 'gnome-calculator'
-  - 'mission-center'
-  - 'steam'
-  - 'umu-launcher'
-  - 'proton-vpn-gtk-app'
-  - 'virtualbox'
-  - 'gnome-software'
-  - 'gnome-disk-utility'
-  - 'gnome-screenshot'
-  # - 'code'
-  - 'baobab'
-  - 'gimp'
-
 services:
   - 'lightdm'
 
-# aur-packages:
-#   - 'brave-bin'
-#   - 'curseforge'
-#   - 'lunar-client'
-#   - 'claude-code'
-#   - 'kiro-ide'
-#   - 'heroic-games-launcher-bin'
-#   - 'antigravity'
-#   - 'visual-studio-code-bin'
-#   - 'opencode-bin'
-#   - 'bottles'
-
-
-# flatpak-packages:
 commands:
-  # - 'flatpak install -y com.brave.Browser'
-  # - 'flatpak install -y it.mijorus.gearlever'
-  # - 'flatpak install -y com.discordapp.Discord'
-  # - 'flatpak install -y com.heroicgameslauncher.hgl'
-
-# post-install commands:
-  # - 'flatpak install -y com.visualstudio.code'
-  # - 'flatpak install -y com.usebottles.bottles'       #!!!
-  # - 'flatpak install -y dev.ftb.ftb-app'              #!!!
-  # - 'flatpak install -y com.vysp3r.ProtonPlus'        #!!!
-  # - 'flatpak install -y com.lunarclient.LunarClient'  #!!!
-  # - 'paru -S opencode-bin'
-
   - 'wget https://git.blendos.co/blendOS/system-tools/akshara/-/raw/main/akshara && sudo umount -l /usr && sudo mv ./akshara /usr/bin/akshara && sudo chmod +x /usr/bin/akshara'

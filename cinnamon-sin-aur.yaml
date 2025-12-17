@@ -4,7 +4,7 @@ track: 'blendos-base'
 
 packages:
   - 'cinnamon'
-  - 'firefox'
+  # - 'firefox'
   - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
@@ -25,9 +25,12 @@ packages:
   - 'gnome-software'
   - 'gnome-disk-utility'
   - 'gnome-screenshot'
-  # - 'code'
+  - 'code'
   - 'baobab'
   - 'gimp'
+  - 'nautilus'
+  - 'gnome-tweaks'
+  - 'gnome-themes-extra'
 
 services:
   - 'lightdm'
@@ -40,9 +43,10 @@ aur-packages:
   - 'kiro-ide'
   - 'heroic-games-launcher-bin'
   - 'antigravity'
-  - 'visual-studio-code-bin'
+  # - 'visual-studio-code-bin'
   - 'opencode-bin'
-  - 'bottles'
+  # - 'bottles'
+  # - 'ftb-app-bin'
 
 
 # flatpak-packages:
