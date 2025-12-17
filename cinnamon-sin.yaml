@@ -20,6 +20,9 @@ packages:
   - 'nautilus'
   - 'gnome-tweaks'
   - 'gnome-themes-extra'
+  - 'adapta-gtk-theme'
+  - 'adw-gtk-theme'
+  - 'gtk-theme-elementary'
 
 services:
   - 'lightdm'
