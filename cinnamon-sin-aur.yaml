@@ -36,7 +36,9 @@ services:
   - 'lightdm'
 
 aur-packages:
-  - 'cinnamon-mint'
+  # - 'cinnamon-mint'
+  - 'mint-themes'
+  - 'cinnamon-control-center'
   - 'brave-bin'
   - 'curseforge'
   - 'lunar-client'
