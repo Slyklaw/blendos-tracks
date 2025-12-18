@@ -29,9 +29,12 @@ packages:
   - 'code'
   - 'baobab'
   - 'gimp'
-  - 'nautilus'
   - 'gnome-tweaks'
   - 'gnome-themes-extra'
+  - 'orchis-theme'
+  - 'adwaita-cursors'
+  - 'adwaita-icon-theme'
+  - 'adwaita-icon-theme-legacy'
 
 services:
   - 'lightdm'
