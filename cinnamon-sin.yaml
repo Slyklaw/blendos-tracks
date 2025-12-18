@@ -4,7 +4,7 @@ track: 'blendos-base'
 
 packages:
   - 'cinnamon'
-  - 'firefox'
+  # - 'firefox'
   - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
