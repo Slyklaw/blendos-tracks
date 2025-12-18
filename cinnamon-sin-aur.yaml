@@ -15,6 +15,7 @@ packages:
   - 'lightdm-gtk-greeter'
 
 #additional-packages
+  - 'chromium'
   - 'xdg-desktop-portal-gtk'  # dupe?
   - 'gnome-calculator'
   - 'mission-center'
@@ -39,7 +40,7 @@ aur-packages:
   # - 'cinnamon-mint'
   - 'mint-themes'
   - 'cinnamon-control-center'
-  - 'brave-bin'
+  # - 'brave-bin'
   - 'curseforge'
   - 'lunar-client'
   - 'claude-code'
