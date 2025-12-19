@@ -31,7 +31,8 @@ packages:
   - 'gimp'
   - 'gnome-tweaks'
   - 'gnome-themes-extra'
-  - 'orchis-theme'
+  - 'materia-gtk-theme'
+  - 'adapta-gtk-theme'
   - 'adwaita-cursors'
   - 'adwaita-icon-theme'
   - 'adwaita-icon-theme-legacy'
@@ -46,4 +47,3 @@ commands:
   - 'gsettings set org.cinnamon.theme name "Materia-dark'
   - 'gsettings set org.cinnamon.desktop.session idle-delay uint32 0'
   - 'gsettings set org.cinnamon.desktop.interface gtk-theme "Materia-dark"'
-  
