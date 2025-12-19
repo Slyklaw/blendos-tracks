@@ -44,8 +44,11 @@ services:
 commands:
   - 'wget https://git.blendos.co/blendOS/system-tools/akshara/-/raw/main/akshara && sudo umount -l /usr && sudo mv ./akshara /usr/bin/akshara && sudo chmod +x /usr/bin/akshara'
   - 'rm -f /usr/share/applications/steam.desktop'
-  - 'gsettings set org.cinnamon.theme name "Materia-dark'
-  - 'gsettings set org.cinnamon.desktop.session idle-delay uint32 0'
+  - 'gsettings set org.cinnamon.theme name "Materia-dark"'
+  - 'gsettings set org.cinnamon.desktop.session idle-delay 0'
   - 'gsettings set org.cinnamon.desktop.interface gtk-theme "Materia-dark"'
   - 'gsettings set org.cinnamon.desktop.background picture-uri "file:///usr/share/backgrounds/gnome/blobs-l.svg"'
   # - 'gsettings set org.cinnamon.desktop.background picture-uri "file:///usr/share/backgrounds/gnome/drool-l.svg"'
+  - 'gsettings set org.x.apps.portal color-scheme "prefer-dark"'
+  - 'gsettings set org.cinnamon.desktop.interface icon-theme "Papirus-dark"'
+  
