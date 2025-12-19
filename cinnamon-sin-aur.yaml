@@ -32,6 +32,7 @@ packages:
   - 'nautilus'
   - 'gnome-tweaks'
   - 'gnome-themes-extra'
+  - 'gnome-backgrounds'
 
 services:
   - 'lightdm'
