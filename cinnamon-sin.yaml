@@ -37,7 +37,6 @@ packages:
   - 'adwaita-icon-theme'
   - 'adwaita-icon-theme-legacy'
   - 'nemo-file-roller'
-  - 
 
 services:
   - 'lightdm'
