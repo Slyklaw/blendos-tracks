@@ -34,9 +34,9 @@ packages:
   - 'materia-gtk-theme'
   - 'nemo-fileroller'
   - 'gnome-backgrounds'
-  - 'ollama-cuda'
-  - 'ollama-rocm'
-  - 'ollama-vulkan'
+  # - 'ollama-cuda'
+  # - 'ollama-rocm'
+  # - 'ollama-vulkan'
 
 services:
   - 'lightdm'
