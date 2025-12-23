@@ -38,14 +38,14 @@ packages:
   # - 'ollama-rocm'
   # - 'ollama-vulkan'
 
-aur-packages:
-  - 'mint-themes'
-  # - 'cinnamon-control-center'
-  - 'curseforge'
-  - 'lunar-client'
-  - 'heroic-games-launcher-bin'
-  - 'antigravity'
-  - 'claude-code'
+# aur-packages:
+#   - 'mint-themes'
+#   # - 'cinnamon-control-center'
+#   - 'curseforge'
+#   - 'lunar-client'
+#   - 'heroic-games-launcher-bin'
+#   - 'antigravity'
+#   - 'claude-code'
   # - 'kiro-ide'
   # - 'opencode-bin'
   # - 'bottles'
@@ -56,4 +56,4 @@ services:
 
 commands:
   # - 'wget https://git.blendos.co/blendOS/system-tools/akshara/-/raw/main/akshara && sudo umount -l /usr && sudo mv ./akshara /usr/bin/akshara && sudo chmod +x /usr/bin/akshara'
-  - 'rm -f /usr/share/applications/steam.desktop'
+  # - 'rm -f /usr/share/applications/steam.desktop'
