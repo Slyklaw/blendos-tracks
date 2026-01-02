@@ -26,7 +26,7 @@ flatpak install -y com.vscodium.codium
 
 wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.8_all.deb
 sudo dpkg -i ./protonvpn-stable-release_1.0.8_all.deb && sudo apt update
-sudo apt install proton-vpn-gnome-desktop
+sudo apt install proton-vpn-gnome-desktop -y
 
 sudo apt install git -y
 git config --global user.name "Slyklaw Dev"
